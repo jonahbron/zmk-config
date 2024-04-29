@@ -15,19 +15,19 @@
       compatible = "zmk,keymap";
   layer0 {
           bindings = <
-          &kp Q &kp W &kp E &kp R &kp T MT(MOD_LCTL,KC_A) &kp S &kp D &kp F &kp G MT(MOD_LSFT,KC_Z) &kp X &kp C &kp V &kp B MT(MOD_LCTL,KC_GRV) &lt 1 BACKSPACE &kp F20 &kp F20 &kp F20 &kp Y &kp U &kp I &kp O &kp P &kp H &kp J &kp K &kp L &kp SEMICOLON &kp N &kp M &kp COMMA &kp DOT MT(MOD_LSFT | MOD_RSFT,KC_SLSH) &lt 2 SPACE MT(MOD_LGUI,KC_TAB) &kp F20 &kp F20 &kp F20
+          &kp Q &kp W &kp E &kp R &kp T &mt LEFT_CONTROL A &kp S &kp D &kp F &kp G &mt LEFT_SHIFT Z &kp X &kp C &kp V &kp B &mt LEFT_CONTROL GRAVE &lt 1 BACKSPACE &none &none &none &kp Y &kp U &kp I &kp O &kp P &kp H &kp J &kp K &kp L &kp SEMICOLON &kp N &kp M &kp COMMA &kp DOT &mt LS(RIGHT_SHIFT) SLASH &lt 2 SPACE &mt LEFT_GUI TAB &none &none &none
           >;
         };layer1 {
           bindings = <
-          &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 KC_GESC &kp HOME &kp PAGE_DOWN &kp PAGE_UP &kp END &trans KC_MS_WH_DOWN KC_MS_WH_UP KC_MS_BTN1 KC_MS_BTN2 &trans &trans &kp F20 &kp F20 &kp F20 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SINGLE_QUOTE KC_MS_LEFT KC_MS_DOWN KC_MS_UP KC_MS_RIGHT &kp ENTER &kp LEFT_ALT &trans &kp F20 &kp F20 &kp F20
+          &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 KC_GESC &kp HOME &kp PAGE_DOWN &kp PAGE_UP &kp END &trans KC_MS_WH_DOWN KC_MS_WH_UP &mkp LCLK &mkp RCLK &trans &trans &none &none &none &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SINGLE_QUOTE KC_MS_LEFT KC_MS_DOWN KC_MS_UP KC_MS_RIGHT &kp ENTER &kp LEFT_ALT &trans &none &none &none
           >;
         };layer2 {
           bindings = <
-          &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp TAB &trans &trans &trans &trans MACRO(0) MACRO(1) &trans &trans &trans &trans &trans &kp F20 &kp F20 &kp F20 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH S(KC_MINS) S(KC_EQL) &trans &trans RESET &trans &trans &kp F20 &kp F20 &kp F20
+          &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp TAB &trans &trans &trans &trans MACRO(0) MACRO(1) &trans &trans &trans &trans &trans &none &none &none &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &mt LEFT_SHIFT MINUS &mt LEFT_SHIFT EQUAL &trans &trans &sys_reset &trans &trans &none &none &none
           >;
         };layer3 {
           bindings = <
-          &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp F20 &kp F20 &kp F20 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp F20 &kp F20 &kp F20
+          &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &none &none &none &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &none &none &none
           >;
         };
     };
