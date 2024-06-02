@@ -25,9 +25,9 @@
       compatible = "zmk,keymap";
   layer0 {
           bindings = <
-          &none &kp  Q              &kp W &kp E &kp R                  &kp T           &kp Y       &kp U           &kp I     &kp O   &kp P                     &none
-          &none &bhm LEFT_CONTROL A &kp S &kp D &kp F                  &kp G           &kp H       &kp J           &kp K     &kp L   &kp SEMICOLON             &none
-          &none &mt  LEFT_SHIFT Z   &kp X &kp C &kp V                  &kp B           &kp N       &kp M           &kp COMMA &kp DOT &mt LS(RIGHT_SHIFT) SLASH &none
+          &none &kp  Q              &kp W &kp F &kp P                  &kp G           &kp J       &kp L           &kp U     &kp Y   &kp SEMICOLON                     &none
+          &none &bhm LEFT_CONTROL A &kp R &kp S &kp T                  &kp D           &kp H       &kp N           &kp E     &kp I   &kp O             &none
+          &none &mt  LEFT_SHIFT Z   &kp X &kp C &kp V                  &kp B           &kp K       &kp M           &kp COMMA &kp DOT &mt LS(RIGHT_SHIFT) SLASH &none
                                          &none &mt LEFT_CONTROL GRAVE &lt 1 BACKSPACE &lt 2 SPACE &mt LEFT_GUI TAB
           >;
         };layer1 {
